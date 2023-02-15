@@ -6,7 +6,11 @@
 
     <groupId>com.agoni.demo</groupId>
     <artifactId>agoni-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>agoni-dependencies</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
